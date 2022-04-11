@@ -2,7 +2,6 @@
 import React from 'react';
 import Wheel from './Wheel'
 import BasicForm from './BasicForm'
-import WithMaterialUI from './WithMaterialUI'
 import {useState} from 'react';
 
 

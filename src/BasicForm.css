@@ -1,0 +1,14 @@
+.submit-button{
+    margin: auto;
+    width: 50vw;
+    height: 8vh;
+    background-color: lightgrey;
+    border-radius: 5px;
+    
+    cursor: pointer;
+    outline: none;
+    color: black;
+    font-size: 18px;
+    font-family: DINOT-Light Regular;
+  
+  }

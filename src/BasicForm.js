@@ -1,6 +1,7 @@
 import './BasicForm.css';
 import {Formik, Field, Form } from 'formik';
 import React from 'react';
+import callAPI from './callAPI.js';
 
 export default class BasicForm extends React.Component {
   render() {
@@ -15,6 +16,7 @@ export default class BasicForm extends React.Component {
             business: ''
           }}
           onSubmit={async (values) => {
+            callAPI(values.firstName,values.lastName,values.email,values.business)
             console.log(JSON.stringify(values, null, 2));
           }}
         >

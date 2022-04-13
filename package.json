@@ -12,8 +12,10 @@
     "formik": "^2.2.9",
     "material-ui-formik-components": "^0.7.3",
     "react": "^18.0.0",
+    "react-confetti": "^6.0.1",
     "react-dom": "^18.0.0",
     "react-scripts": "5.0.0",
+    "react-use": "^17.3.2",
     "web-vitals": "^2.1.4",
     "yup": "^0.32.11"
   },

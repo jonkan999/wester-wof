@@ -14,11 +14,7 @@ export default class Winning extends React.Component {
         return (
             <div className="winner-text">
                 Tyvärr! Ingen vinst idag, men gå gärna ändå in och kika på vad vi skulle kunna erbjuda er i form av Catering och Event på: <a style={{ color: "hotpink"}} href={westers_url} target="_blank" title="Opens in a new window">www.westers.se</a>
-                <Confetti
-                    width={window.innerWidth}
-                    height={window.innerHeight}
-                    colors={['#B5BD02','#ED8B00','#CE0037']}
-                    />
+
             </div>
             );
     } else if (["5", "11"].includes(this.props.win)) {
@@ -26,6 +22,11 @@ export default class Winning extends React.Component {
         return (
             <div className="winner-text">
                 Grattis! Wow! Du är nu med i utlottningen till att vinna en personlig kock i hemmet. Vi kommer och serverar och tillagar en tre rätters meny, i ditt hem! Vi hör av oss på mail om du vinner, så länge kan du läsa mer om det och våra andra tjänster för Catering och Event på: <a style={{ color: "hotpink"}} href={westers_url} target="_blank" title="Opens in a new window">www.westers.se</a>
+                <Confetti
+                    width={window.innerWidth}
+                    height={window.innerHeight}
+                    colors={['#B5BD02','#ED8B00','#CE0037']}
+                    />
             </div>
             );
 

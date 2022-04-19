@@ -4,7 +4,7 @@ import callAPI from './callAPI.js';
 import Confetti from 'react-confetti'
 import './Wheel.css';
 
-let westers_url='https://www.westers.se/?gclid=CjwKCAjw6dmSBhBkEiwA_W-EoMIZ_n1hUj9x3TPdAkUCPblovF-hdikZhxGPho7RezLj2P_OKW6-WBoC31gQAvD_BwE'
+let westers_url='https://www.westers.se/artiklar/westers-lyckohjul/'
 
 export default class Winning extends React.Component {
     
